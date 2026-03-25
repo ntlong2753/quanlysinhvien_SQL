@@ -99,7 +99,7 @@ CREATE TABLE `student` (
 
 LOCK TABLES `student` WRITE;
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
-INSERT INTO `student` VALUES (1,'Hung','Ha Noi','0912113113',_binary '',1),(2,'Hoa','Hai phong',NULL,_binary '',1),(3,'Manh','HCM','0123123123',_binary '\0',2),(4,'Hung','Ha Noi','0912113113',_binary '',1),(5,'Hoa','Hai phong',NULL,_binary '',1),(6,'Manh','HCM','0123123123',_binary '\0',2);
+INSERT INTO `student` VALUES (1,'Hung','Ha Noi','0912113113',_binary '',2),(2,'Hoa','Hai phong',NULL,_binary '',1),(3,'Manh','HCM','0123123123',_binary '\0',2),(4,'Hung','Ha Noi','0912113113',_binary '',2),(5,'Hoa','Hai phong',NULL,_binary '',1),(6,'Manh','HCM','0123123123',_binary '\0',2);
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -143,4 +143,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-03-24 16:10:25
+-- Dump completed on 2026-03-25  8:43:36
